@@ -8,5 +8,25 @@ import android.os.Handler;
 
 public class SplashActivity extends AppCompatActivity {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        // To hide the toolbar from splash activity
+        getSupportActionBar().hide();
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                Intent intent = new Intent(SplashActivity.this, LanguageActivity.class);
+                startActivity(intent);
+
+            }
+        },4000);
+
+    }
+
 
 }
