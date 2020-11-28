@@ -107,6 +107,37 @@ public class Feedback extends AppCompatActivity {
                 // creating Toast
                 Toast.makeText(Feedback.this, "Your Data Was Send To The Server", Toast.LENGTH_SHORT).show();
 
+                // onclicklistner for details button
+
+                details.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        new AlertDialog.Builder(Feedback.this)
+                                .setTitle("Sent Details:")
+                                .setMessage("Name - " + name + "\n\nEmail - " + email + "\n\nMessage - " + message)
+                                .show();
+                    }
+                });
+
+            }
+        });
+
+    }
+
+    // Setting the Up button in Activity to return to More fragment
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        super.onOptionsItemSelected(item);
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+
+        return true;
+    }
 
 
             }
