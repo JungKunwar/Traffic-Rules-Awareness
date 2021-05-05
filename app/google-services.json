@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "738233425211",
+    "firebase_url": "https://traffic-rules-awareness-default-rtdb.firebaseio.com",
+    "project_id": "traffic-rules-awareness",
+    "storage_bucket": "traffic-rules-awareness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738233425211:android:69d27fd81f1b71e1b7eb1e",
+        "android_client_info": {
+          "package_name": "com.codewithsudesh.trafficsrules"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738233425211-bh7kjno5grqep50u13kmo397sni2cnv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPn1rGJU85x5DnUqLB6MmJd7aE8HcAg5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738233425211-bh7kjno5grqep50u13kmo397sni2cnv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
